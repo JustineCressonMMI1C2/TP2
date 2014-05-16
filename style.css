@@ -6,11 +6,11 @@
 
 #header
 {
-	background: #ccc;
+	background: #01B0F0;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; color:#FFF; }
 
 #navigation
 {
@@ -62,7 +62,7 @@
 
 #edito h2
 {
-	color: #000;
+	color: #01B0F0;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -85,10 +85,16 @@
 	opacity: 0.83;
 }
 
+#news h2
+{
+	color: #01B0F0;
+	font-size: 160%;
+}
+
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #01B0F0;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
