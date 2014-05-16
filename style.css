@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Romanesco);
+
+body { background:#333333; }
+
 #container
 {
 	margin: 0 30px;
@@ -10,7 +14,16 @@
 	padding: 20px;
 }
 
-#header h1 { margin: 0; color:#FFF; }
+#header h1 { text-align:center; margin: 0; color:#FFF;font-family: 'Romanesco', cursive; font-size:60px;
+transition-property: width;
+transition-duration: 1s;
+transition-timing-function: linear;
+transition-delay: 2s;}
+#header h1:hover { letter-spacing:4px;
+transition-property: width;
+transition-duration: 1s;
+transition-timing-function: linear;
+transition-delay: 2s;}
 
 #navigation
 {
@@ -59,12 +72,14 @@
 	background-clip: padding-box;
 	opacity: 0.83;
 }
-
+#news a:hover { color:#4A1A2C;}
 #edito h2
 {
 	color: #01B0F0;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	font-family: 'Romanesco', cursive;
+	font-size:40px;
 }
 
 #news
@@ -84,18 +99,22 @@
 	background-clip: padding-box;
 	opacity: 0.83;
 }
+#news a:hover { color:#4A1A2C;}
 
 #news h2
 {
 	color: #01B0F0;
 	font-size: 160%;
+	font-family: 'Romanesco', cursive;
+	font-size:40px;
 }
 
 #footer
 {
 	clear: both;
-	background: #01B0F0;
+	background: #046380;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	color:#FFF;
 }
